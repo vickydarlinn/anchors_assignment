@@ -8,8 +8,7 @@ export default defineConfig({
   server: {
     proxy: {
       "/api": {
-        // target: "https://bf54-27-123-240-82.ngrok.io",
-        target: "http://localhost:6970",
+        target: "https://api-anchors.onrender.com",
         changeOrigin: true,
       },
     },
